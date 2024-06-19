@@ -67,7 +67,7 @@ public class Prodotto {
 	}
 	
 	//Metodo per ottenere il prezzo comprensivo di IVA
-	public double getPriceWhitTax() {
+	public double getPriceWithTax() {
 		return price + (price * tax / 100);
 	}
 	
@@ -75,4 +75,6 @@ public class Prodotto {
 	public String getExtendedName() {
 		return code + "-" + name;
 	}
+
+    
 }
